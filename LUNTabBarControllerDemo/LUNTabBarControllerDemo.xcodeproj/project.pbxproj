@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570B5E521C7E10590045C682 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570B5E511C7E0F090045C682 /* FiraSans-Regular.ttf */; };
+		570B5E541C7E133E0045C682 /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570B5E531C7E133E0045C682 /* FiraSans-Medium.ttf */; };
+		57EB1FDF1C6CB9B6001429B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EB1FDE1C6CB9B6001429B8 /* main.m */; };
+		57EB1FE21C6CB9B6001429B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EB1FE11C6CB9B6001429B8 /* AppDelegate.m */; };
+		57EB1FE81C6CB9B6001429B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EB1FE61C6CB9B6001429B8 /* Main.storyboard */; };
+		57EB1FEA1C6CB9B6001429B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57EB1FE91C6CB9B6001429B8 /* Assets.xcassets */; };
+		57EB1FED1C6CB9B6001429B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EB1FEB1C6CB9B6001429B8 /* LaunchScreen.storyboard */; };
+		98B724659E45658712F704E2 /* LUNTabBarAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B72F4C2C7D2BE1974E03D4 /* LUNTabBarAnimationController.m */; };
+		98B7285F1E2E4BA0AA4BA312 /* DemoFadeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B72D41FC4C447121C12EA5 /* DemoFadeAnimationController.m */; };
+		98B72AB14A87F505DE7B4F90 /* DemoFloatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B72E040ACB058FC23C84B1 /* DemoFloatingViewController.m */; };
+		98B72CD72798061990D59641 /* LUNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B72B85044765BECC4A3100 /* LUNTabBarController.m */; };
+		98B72E82DDC1FEB3323DA434 /* SanFranciscoDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98B728FE5546E1C0EF09FACE /* SanFranciscoDisplay-Black.otf */; };
+		98B72F8AA695EF6D8D6C2489 /* DemoTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B72AB7FD6F7AEC544E7DED /* DemoTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		570B5E511C7E0F090045C682 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		570B5E531C7E133E0045C682 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		57EB1FDA1C6CB9B6001429B8 /* LUNTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUNTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57EB1FDE1C6CB9B6001429B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57EB1FE01C6CB9B6001429B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57EB1FE11C6CB9B6001429B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57EB1FE71C6CB9B6001429B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57EB1FE91C6CB9B6001429B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57EB1FEC1C6CB9B6001429B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57EB1FEE1C6CB9B6001429B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B72507D1E533C62C5C1E3A /* DemoTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTabBarController.h; sourceTree = "<group>"; };
+		98B728FE5546E1C0EF09FACE /* SanFranciscoDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file.otf; path = "SanFranciscoDisplay-Black.otf"; sourceTree = "<group>"; };
+		98B72A99DD3E8B9099B52A94 /* DemoFloatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFloatingViewController.h; sourceTree = "<group>"; };
+		98B72AB7FD6F7AEC544E7DED /* DemoTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTabBarController.m; sourceTree = "<group>"; };
+		98B72B7C00EAD91F424A1172 /* LUNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTabBarController.h; sourceTree = "<group>"; };
+		98B72B85044765BECC4A3100 /* LUNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNTabBarController.m; sourceTree = "<group>"; };
+		98B72C9C213A47DB373BDE04 /* LUNTabBarAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTabBarAnimationController.h; sourceTree = "<group>"; };
+		98B72D41FC4C447121C12EA5 /* DemoFadeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFadeAnimationController.m; sourceTree = "<group>"; };
+		98B72E040ACB058FC23C84B1 /* DemoFloatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFloatingViewController.m; sourceTree = "<group>"; };
+		98B72F38E953308B50F8514D /* DemoFadeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFadeAnimationController.h; sourceTree = "<group>"; };
+		98B72F4B261BB18A8B303975 /* LUNTabBarFloatingControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNTabBarFloatingControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		98B72F4C2C7D2BE1974E03D4 /* LUNTabBarAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNTabBarAnimationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57EB1FD71C6CB9B6001429B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57EB1FD11C6CB9B6001429B8 = {
+			isa = PBXGroup;
+			children = (
+				57EB1FDC1C6CB9B6001429B8 /* LUNTabBarControllerDemo */,
+				57EB1FDB1C6CB9B6001429B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57EB1FDB1C6CB9B6001429B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57EB1FDA1C6CB9B6001429B8 /* LUNTabBarControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57EB1FDC1C6CB9B6001429B8 /* LUNTabBarControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				57EB1FE01C6CB9B6001429B8 /* AppDelegate.h */,
+				57EB1FE11C6CB9B6001429B8 /* AppDelegate.m */,
+				57EB1FE61C6CB9B6001429B8 /* Main.storyboard */,
+				57EB1FE91C6CB9B6001429B8 /* Assets.xcassets */,
+				57EB1FEB1C6CB9B6001429B8 /* LaunchScreen.storyboard */,
+				57EB1FEE1C6CB9B6001429B8 /* Info.plist */,
+				57EB1FDD1C6CB9B6001429B8 /* Supporting Files */,
+				98B72EEE7DC790F952AE6CED /* LUNTabBarController */,
+				98B727D5E7616BEA31784989 /* Resources */,
+				98B72507E79531DF318CF1DD /* Demo */,
+			);
+			path = LUNTabBarControllerDemo;
+			sourceTree = "<group>";
+		};
+		57EB1FDD1C6CB9B6001429B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57EB1FDE1C6CB9B6001429B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98B723E76F81BA2B1F8D3E5A /* DemoFadeAnimationController */ = {
+			isa = PBXGroup;
+			children = (
+				98B72D41FC4C447121C12EA5 /* DemoFadeAnimationController.m */,
+				98B72F38E953308B50F8514D /* DemoFadeAnimationController.h */,
+			);
+			path = DemoFadeAnimationController;
+			sourceTree = "<group>";
+		};
+		98B72507E79531DF318CF1DD /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				98B72B98212C8A0E67538BA2 /* DemoFloatingViewController */,
+				98B72D72D5E6A29C48D97B01 /* DemoTabBarController */,
+				98B723E76F81BA2B1F8D3E5A /* DemoFadeAnimationController */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		98B727D5E7616BEA31784989 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				570B5E511C7E0F090045C682 /* FiraSans-Regular.ttf */,
+				98B728FE5546E1C0EF09FACE /* SanFranciscoDisplay-Black.otf */,
+				570B5E531C7E133E0045C682 /* FiraSans-Medium.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		98B7291418267DECA37EB795 /* LUNTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				98B72B85044765BECC4A3100 /* LUNTabBarController.m */,
+				98B72B7C00EAD91F424A1172 /* LUNTabBarController.h */,
+			);
+			path = LUNTabBarController;
+			sourceTree = "<group>";
+		};
+		98B72B98212C8A0E67538BA2 /* DemoFloatingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				98B72E040ACB058FC23C84B1 /* DemoFloatingViewController.m */,
+				98B72A99DD3E8B9099B52A94 /* DemoFloatingViewController.h */,
+			);
+			path = DemoFloatingViewController;
+			sourceTree = "<group>";
+		};
+		98B72D72D5E6A29C48D97B01 /* DemoTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				98B72AB7FD6F7AEC544E7DED /* DemoTabBarController.m */,
+				98B72507D1E533C62C5C1E3A /* DemoTabBarController.h */,
+			);
+			path = DemoTabBarController;
+			sourceTree = "<group>";
+		};
+		98B72EEE7DC790F952AE6CED /* LUNTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				98B7291418267DECA37EB795 /* LUNTabBarController */,
+				98B72F156DE83F544C19894C /* LUNTabBarAnimationController */,
+				98B72FD64AFD473FA0EAA23C /* LUNTabBarFloatingControllerAnimatedTransitioning */,
+			);
+			name = LUNTabBarController;
+			path = ../../LUNTabBarController;
+			sourceTree = "<group>";
+		};
+		98B72F156DE83F544C19894C /* LUNTabBarAnimationController */ = {
+			isa = PBXGroup;
+			children = (
+				98B72F4C2C7D2BE1974E03D4 /* LUNTabBarAnimationController.m */,
+				98B72C9C213A47DB373BDE04 /* LUNTabBarAnimationController.h */,
+			);
+			path = LUNTabBarAnimationController;
+			sourceTree = "<group>";
+		};
+		98B72FD64AFD473FA0EAA23C /* LUNTabBarFloatingControllerAnimatedTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				98B72F4B261BB18A8B303975 /* LUNTabBarFloatingControllerAnimatedTransitioning.h */,
+			);
+			path = LUNTabBarFloatingControllerAnimatedTransitioning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57EB1FD91C6CB9B6001429B8 /* LUNTabBarControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57EB1FF11C6CB9B6001429B8 /* Build configuration list for PBXNativeTarget "LUNTabBarControllerDemo" */;
+			buildPhases = (
+				57EB1FD61C6CB9B6001429B8 /* Sources */,
+				57EB1FD71C6CB9B6001429B8 /* Frameworks */,
+				57EB1FD81C6CB9B6001429B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LUNTabBarControllerDemo;
+			productName = LUNTabBarController;
+			productReference = 57EB1FDA1C6CB9B6001429B8 /* LUNTabBarControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57EB1FD21C6CB9B6001429B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lunapps;
+				TargetAttributes = {
+					57EB1FD91C6CB9B6001429B8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2KS947LFXJ;
+					};
+				};
+			};
+			buildConfigurationList = 57EB1FD51C6CB9B6001429B8 /* Build configuration list for PBXProject "LUNTabBarControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57EB1FD11C6CB9B6001429B8;
+			productRefGroup = 57EB1FDB1C6CB9B6001429B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57EB1FD91C6CB9B6001429B8 /* LUNTabBarControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57EB1FD81C6CB9B6001429B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EB1FED1C6CB9B6001429B8 /* LaunchScreen.storyboard in Resources */,
+				570B5E521C7E10590045C682 /* FiraSans-Regular.ttf in Resources */,
+				570B5E541C7E133E0045C682 /* FiraSans-Medium.ttf in Resources */,
+				57EB1FEA1C6CB9B6001429B8 /* Assets.xcassets in Resources */,
+				57EB1FE81C6CB9B6001429B8 /* Main.storyboard in Resources */,
+				98B72E82DDC1FEB3323DA434 /* SanFranciscoDisplay-Black.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57EB1FD61C6CB9B6001429B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EB1FE21C6CB9B6001429B8 /* AppDelegate.m in Sources */,
+				57EB1FDF1C6CB9B6001429B8 /* main.m in Sources */,
+				98B72CD72798061990D59641 /* LUNTabBarController.m in Sources */,
+				98B724659E45658712F704E2 /* LUNTabBarAnimationController.m in Sources */,
+				98B72AB14A87F505DE7B4F90 /* DemoFloatingViewController.m in Sources */,
+				98B72F8AA695EF6D8D6C2489 /* DemoTabBarController.m in Sources */,
+				98B7285F1E2E4BA0AA4BA312 /* DemoFadeAnimationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57EB1FE61C6CB9B6001429B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57EB1FE71C6CB9B6001429B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57EB1FEB1C6CB9B6001429B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57EB1FEC1C6CB9B6001429B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57EB1FEF1C6CB9B6001429B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57EB1FF01C6CB9B6001429B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57EB1FF21C6CB9B6001429B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/LUNTabBarControllerDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunapps.LUNTabBarControllerDemo;
+				PRODUCT_NAME = LUNTabBarControllerDemo;
+			};
+			name = Debug;
+		};
+		57EB1FF31C6CB9B6001429B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/LUNTabBarControllerDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunapps.LUNTabBarControllerDemo;
+				PRODUCT_NAME = LUNTabBarControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57EB1FD51C6CB9B6001429B8 /* Build configuration list for PBXProject "LUNTabBarControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57EB1FEF1C6CB9B6001429B8 /* Debug */,
+				57EB1FF01C6CB9B6001429B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57EB1FF11C6CB9B6001429B8 /* Build configuration list for PBXNativeTarget "LUNTabBarControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57EB1FF21C6CB9B6001429B8 /* Debug */,
+				57EB1FF31C6CB9B6001429B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57EB1FD21C6CB9B6001429B8 /* Project object */;
+}
