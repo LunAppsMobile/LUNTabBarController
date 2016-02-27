@@ -65,8 +65,11 @@ If you have transitionScaleMultiplier less than 1.0 then you'll see background a
 If content height isn't a constant (for example depends on screen height) you  should set floatingContentHeight property programmatically depending on your logic. The easiest way to do this is probably subclass LUNTabBarController and override getter of this property. Alternatively you can just set property from anywhere outside of the class.
 
 While designing your floating tab's interface you need to know these:
+
 1. Your view controller would be displayed full screen as it is supposed by tab bar controller, so you need to place your content at the bottom.
+
 2. Bottom layout guide will include the height of tab bar even though tab bar won't be visible, so you probably want to specify bottom space to superview but not to bottom layout guide.
+
 3. You want your view controller's view edges to be extended under tab bar otherwise there would be no your content in place where tab bar usually appears to be. To achieve this just make sure you have Extend Edges Under Bottom Bars enabled in your view controller. If your tab bar is opaque make sure Extend Edges Under Opaque Bars is also enabled.
 
 To close floating tab programmatically you should call the following method
