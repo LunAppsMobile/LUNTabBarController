@@ -28,7 +28,7 @@
 }
 
 - (void)hideFloatingTab {
-    if (self.previousViewController)
+    if (self.selectedIndex == self.floatingTabIndex)
         self.selectedViewController = self.previousViewController;
 }
 
@@ -78,8 +78,7 @@
         if (toIndex == self.floatingTabIndex) {
             self.previousViewController = fromVC;
             [toVC.view addGestureRecognizer:self.dismissRecognizer];
-        } else
-            self.previousViewController = nil;
+        }
 
         return self.animationController;
     } else
