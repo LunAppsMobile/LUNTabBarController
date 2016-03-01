@@ -64,7 +64,9 @@
 
 #pragma mark - UITabBarControllerDelegate
 
-- (id <UIViewControllerAnimatedTransitioning>)tabBarController:(UITabBarController *)tabBarController animationControllerForTransitionFromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
+- (id <UIViewControllerAnimatedTransitioning>)tabBarController:(UITabBarController *)tabBarController
+            animationControllerForTransitionFromViewController:(UIViewController *)fromVC
+                                              toViewController:(UIViewController *)toVC {
     NSInteger fromIndex = [self.viewControllers indexOfObject:fromVC];
     NSInteger toIndex = [self.viewControllers indexOfObject:toVC];
 
@@ -85,7 +87,8 @@
         return nil;
 }
 
-- (id <UIViewControllerInteractiveTransitioning>)tabBarController:(UITabBarController *)tabBarController interactionControllerForAnimationController:(id <UIViewControllerAnimatedTransitioning>)animationController {
+- (id <UIViewControllerInteractiveTransitioning>)tabBarController:(UITabBarController *)tabBarController
+                      interactionControllerForAnimationController:(id <UIViewControllerAnimatedTransitioning>)animationController {
     BOOL isRecognizerActive = self.dismissRecognizer.state == UIGestureRecognizerStateBegan || self.dismissRecognizer.state == UIGestureRecognizerStateChanged;
     return isRecognizerActive ? self.animationController : nil;
 }

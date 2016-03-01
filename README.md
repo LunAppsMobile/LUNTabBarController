@@ -2,7 +2,7 @@
 
 [![Crafted in LunApps](https://lunapps.com/img/crafted-in-lunapps.png)](https://lunapps.com/)
 
-Please check this [article](https://lunapps.com/blog/lunfield/) on our blog.
+Please check this [article](https://lunapps.com/blog/how-we-created-animated-tab-bar-for-mobile-apps/) on our blog.
 
 Purpose
 -------
@@ -29,7 +29,7 @@ To use the LUNTabBarController in your app, just drag the LUNTabBarController fo
 Or you can use CocoaPods 
 
 ```ruby
-pod 'LUNTabBarController', '~> 1.0.1'
+pod 'LUNTabBarController', '~> 1.0.2'
 ```
 
 Usage
