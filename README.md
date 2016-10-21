@@ -29,7 +29,7 @@ To use the LUNTabBarController in your app, just drag the LUNTabBarController fo
 Or you can use CocoaPods 
 
 ```ruby
-pod 'LUNTabBarController', '~> 1.0.2'
+pod 'LUNTabBarController', '~> 1.0'
 ```
 
 Usage

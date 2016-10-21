@@ -20,7 +20,15 @@
 @implementation LUNTabBarAnimationController
 
 - (UIView *)createBackgroundSnapshot:(UIViewController *)backgroundViewController {
-    UIView *snapshotView = [backgroundViewController.view snapshotViewAfterScreenUpdates:NO];
+    UIView *view = backgroundViewController.view;
+    
+    UIGraphicsBeginImageContextWithOptions(view.bounds.size, NO, [UIScreen mainScreen].scale);
+    [view drawViewHierarchyInRect:view.bounds afterScreenUpdates:NO];
+    UIImage *snapshotImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    UIImageView *snapshotView = [[UIImageView alloc] initWithImage:snapshotImage];
+    snapshotView.frame = view.frame;
     snapshotView.layer.shadowColor = [UIColor blackColor].CGColor;
     snapshotView.layer.shadowOffset = CGSizeMake(0, 1);
     snapshotView.layer.shadowOpacity = 0.1;
