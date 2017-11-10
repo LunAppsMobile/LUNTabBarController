@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		570B5E511C7E0F090045C682 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
 		570B5E531C7E133E0045C682 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		57C99DF81FB5B9100074C2E9 /* LUNTabBarAnimationController+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LUNTabBarAnimationController+Private.h"; sourceTree = "<group>"; };
 		57EB1FDA1C6CB9B6001429B8 /* LUNTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUNTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57EB1FDE1C6CB9B6001429B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57EB1FE01C6CB9B6001429B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -171,6 +172,7 @@
 			children = (
 				98B72F4C2C7D2BE1974E03D4 /* LUNTabBarAnimationController.m */,
 				98B72C9C213A47DB373BDE04 /* LUNTabBarAnimationController.h */,
+				57C99DF81FB5B9100074C2E9 /* LUNTabBarAnimationController+Private.h */,
 			);
 			path = LUNTabBarAnimationController;
 			sourceTree = "<group>";

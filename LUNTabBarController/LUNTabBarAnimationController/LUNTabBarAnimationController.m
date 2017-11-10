@@ -4,6 +4,7 @@
 //
 
 #import "LUNTabBarAnimationController.h"
+#import "LUNTabBarAnimationController+Private.h"
 #import "LUNTabBarFloatingControllerAnimatedTransitioning.h"
 
 @interface LUNTabBarAnimationController ()
@@ -140,7 +141,14 @@
                                   }
 
                                   floatingViewController.view.transform = CGAffineTransformIdentity;
+
+                                  self.isRunning = NO;
                               }];
+
+    if (self.synchronizationQueue) {
+        dispatch_resume(self.synchronizationQueue);
+        self.synchronizationQueue = nil;
+    }
 }
 
 #pragma mark - UIViewControllerInteractiveTransitioning
