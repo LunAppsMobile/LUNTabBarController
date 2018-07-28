@@ -39,6 +39,9 @@
 }
 
 - (UIView *)createTabBarSnapshot:(UITabBarController *)tabBarController {
+    if (tabBarController.tabBar.isHidden) {
+        return [UIView new];
+    }
     UITabBar *tabBar = tabBarController.tabBar;
     CGSize tabBarControllerViewSize = tabBarController.view.frame.size;
     CGRect tabBarFrame = tabBar.frame;
